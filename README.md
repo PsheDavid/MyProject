@@ -5,6 +5,7 @@ This is a basic web project demonstrating a minimal Flask backend serving a stat
 ## Features
 
 - Python Flask server (`main.py`)
+- Static HTML page (`index.html`)
 
 ## Prerequisites
 
