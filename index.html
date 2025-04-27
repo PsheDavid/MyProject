@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Flask Web</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Simple Flask Web Project</h1>
+        <p>This page is served by a Flask backend.</p>
+        <button id="alertBtn">Click me</button>
+    </div>
+    <script>
+        document.getElementById('alertBtn').addEventListener('click', function() {
+            alert('Hello from Flask!');
+        });
+    </script>
+</body>
+</html>
